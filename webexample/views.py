@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from django.http import HttResponse
+from django.http import HttpResponse
 
 def index(request):
-    return HttResponse("<h2> test </h2>")
+    return HttpResponse("<h2> test </h2>")
